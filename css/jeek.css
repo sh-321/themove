@@ -1,0 +1,56 @@
+/* body{background-image:url("img/DJI_0102.JPG"); background-position-x:center;} */
+
+html>/**/body {overflow-y:scroll;}
+body{background-color:#231f20; }
+.wrap{width:1000px; height:auto; margin:auto; overflow-y:none;}
+.header_pc{width:1000px; height:250px;  margin:auto;
+}
+.logo_wrap_pc{height:100%; width:250px; margin:auto; }
+.nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; }
+.ul_pc{width:500px; margin:auto;}
+.li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
+.li_pc a{color:#fff;}
+
+
+
+/* home */
+.main_pc{width:1000px; height:auto; margin:auto; }
+
+
+/* carrer */
+.portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
+.category{ }
+.category a{color:rgba(255, 255, 255, 0.678);}
+
+.content_wrap{width:100%; margin-top:60px;}
+.content_ul_pc{width:950px;  margin:auto;    }
+.content_ul_pc:after{content:""; display:block; clear:both;}
+.content_li_pc{width:45%;  margin-bottom:150px; }
+
+.content_li_thirdrow_pc{float:left; width:275px; height:155px; margin-bottom:20px;}
+
+.content_li_thirdrow_pc:nth-child(3n+1){float:left; width:31%; margin-right:3.5%;  } 
+.content_li_thirdrow_pc:nth-child(2n){float:left; width:31%;  }
+.content_li_thirdrow_pc:nth-child(3n){float:right; width:31%; }
+
+
+.content_li_pc:nth-child(n){float:right; }
+.content_li_pc:nth-child(2n+1){float:left;}
+
+
+/* about */
+.info_pc{width:1000px; margin:auto; height:1200px; background-color:#f03;}
+.about_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
+
+
+/* contact */
+.contact_pc{width:1000px; margin:auto; height:1200px; background-color:#564;}
+.contact_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
+
+
+
+
+
+/* footer */
+.footer_pc{height:200px; color:#fff; font-weight:normal; }
+
