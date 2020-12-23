@@ -1,7 +1,7 @@
 /* body{background-image:url("img/DJI_0102.JPG"); background-position-x:center;} */
 
 html>/**/body {overflow-y:scroll;}
-body{background-color:#231f20; }
+body{background-color:#231F20; }
 .wrap{width:1000px; height:auto; margin:auto; overflow-y:none;}
 .header_pc{width:1000px; height:250px;  margin:auto;
 }
@@ -28,7 +28,7 @@ body{background-color:#231f20; }
 .category a{color:rgba(255, 255, 255, 0.678);}
 
 .content_wrap{width:100%; }
-.content_ul_pc{width:950px;  margin:auto;    }
+.content_ul_pc{width:950px;  margin:auto;  margin-top:35px;  }
 .content_ul_pc:after{content:""; display:block; clear:both;}
 .content_li_pc{width:45%;  margin-bottom:150px; }
 
