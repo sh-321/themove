@@ -6,7 +6,7 @@ body{background-color:#231f20; }
 .header_pc{width:1000px; height:250px;  margin:auto;
 }
 .logo_wrap_pc{height:100%; width:250px; margin:auto; }
-.nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; }
+.nav_pc{width:1000px; height:30px; margin:auto; margin-bottom:10px; font-size:18px; }
 .ul_pc{width:500px; margin:auto;}
 .li_pc{padding-top:10px; float:left;  width:calc(100%/3); text-align:center;  }
 .li_pc a{color:#fff;}
@@ -17,12 +17,17 @@ body{background-color:#231f20; }
 .main_pc{width:1000px; height:auto; margin:auto; }
 
 
+.mu1{float:left; background-color: red; width:10px; height:10px; border-radius: 5px;}
+
+
+
+
 /* carrer */
 .portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
-.category{ }
+.category{font-size:15px;}
 .category a{color:rgba(255, 255, 255, 0.678);}
 
-.content_wrap{width:100%; margin-top:60px;}
+.content_wrap{width:100%; }
 .content_ul_pc{width:950px;  margin:auto;    }
 .content_ul_pc:after{content:""; display:block; clear:both;}
 .content_li_pc{width:45%;  margin-bottom:150px; }
@@ -52,5 +57,5 @@ body{background-color:#231f20; }
 
 
 /* footer */
-.footer_pc{height:200px; color:#fff; font-weight:normal; }
+.footer_pc{height:200px; color:#fff; font-weight:normal; text-align:right; }
 
