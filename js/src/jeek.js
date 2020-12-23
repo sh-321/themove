@@ -20,16 +20,25 @@
     
     // });
     
+ 
+    var h = $('.hover');
+    var c = $('.category');
+
+
+    h.on('mouseover',function() {
+        c.css({display:'block'})
+        
+    })
+
+    c.on('mouseover',function() {
+        c.css({display:'block'})
+        
+    })
     
     
-   
-    
-    
-    
-    
-    
-    
-    
+    h.on('mouseleave',function (){
+        c.css({display: 'none'})
+    })
     
     
        
@@ -41,3 +50,6 @@
     
     
     })(jQuery);
+    
+    
+   

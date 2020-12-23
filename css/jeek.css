@@ -17,14 +17,14 @@ body{background-color:#231F20; }
 .main_pc{width:1000px; height:auto; margin:auto; }
 
 
-.mu1{float:left; background-color: red; width:10px; height:10px; border-radius: 5px;}
+
 
 
 
 
 /* carrer */
 .portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
-.category{font-size:15px;}
+.category{font-size:15px; display:none;}
 .category a{color:rgba(255, 255, 255, 0.678);}
 
 .content_wrap{width:100%; }
@@ -46,6 +46,8 @@ body{background-color:#231F20; }
 /* about */
 .info_pc{width:1000px; margin:auto; height:1200px; background-color:#f03;}
 .about_main_pc{color:#fff; margin-bottom:20px; margin-top:60px;}
+.pf_pc{width:200px; height:200px; background-image:url("../img/man.jpg"); background-repeat: no-repeat; background-size: cover;
+border-radius:50%;}
 
 
 /* contact */
@@ -58,4 +60,9 @@ body{background-color:#231F20; }
 
 /* footer */
 .footer_pc{height:200px; color:#fff; font-weight:normal; text-align:right; }
+
+
+
+.hover:hover ~ .catagory{display:block;}
+
 
