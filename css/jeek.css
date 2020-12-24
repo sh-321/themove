@@ -66,3 +66,11 @@ border-radius:50%;}
 .hover:hover ~ .catagory{display:block;}
 
 
+/* 반응형 구간 */
+
+@media screen and (max-width:1000px){
+    .content_li_thirdrow_pc{width:45%;}
+    .content_li_thirdrow_pc:nth-child(odd){float:left;}
+    .content_li_thirdrow_pc:nth-child(even){float:right;}
+
+}
