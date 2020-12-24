@@ -69,8 +69,15 @@ border-radius:50%;}
 /* 반응형 구간 */
 
 @media screen and (max-width:1000px){
-    .content_li_thirdrow_pc{width:45%;}
-    .content_li_thirdrow_pc:nth-child(odd){float:left;}
-    .content_li_thirdrow_pc:nth-child(even){float:right;}
+
+.portfolio_pc{width:100%; }
+.content_ul_pc{width:95%; }
+
+
+
+
+    .content_li_thirdrow_pc{width:45%; height:auto;}
+    .content_li_thirdrow_pc:nth-child(even){float:left;}
+    .content_li_thirdrow_pc:nth-child(odd){float:right;}
 
 }
