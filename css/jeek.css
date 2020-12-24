@@ -24,7 +24,7 @@ body{background-color:#231F20; }
 
 /* carrer */
 .portfolio_pc{width:1000px; height:auto; margin:auto; background-color:#231f20;  }
-.category{font-size:15px; display:none;}
+.category{font-size:15px; }
 .category a{color:rgba(255, 255, 255, 0.678);}
 
 .content_wrap{width:100%; }

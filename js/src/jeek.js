@@ -20,25 +20,25 @@
     
     // });
     
- 
-    var h = $('.hover');
-    var c = $('.category');
+ // 포트폴리오 호버시 드롭다운 잘못됨
+    // var h = $('.hover');
+    // var c = $('.category');
 
 
-    h.on('mouseover',function() {
-        c.css({display:'block'})
+    // h.on('mouseover',function() {
+    //     c.css({display:'block'})
         
-    })
+    // })
 
-    c.on('mouseover',function() {
-        c.css({display:'block'})
+    // c.on('mouseover',function() {
+    //     c.css({display:'block'})
         
-    })
+    // })
     
     
-    h.on('mouseleave',function (){
-        c.css({display: 'none'})
-    })
+    // h.on('mouseleave',function (){
+    //     c.css({display: 'none'})
+    // })
     
     
        
