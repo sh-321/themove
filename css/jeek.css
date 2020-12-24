@@ -70,14 +70,17 @@ border-radius:50%;}
 
 @media screen and (max-width:1000px){
 
-.portfolio_pc{width:100%; }
+.portfolio_pc{width:100%; background-color:#f03;}
 .content_ul_pc{width:95%; }
-
+body{background-color:#75f011; }
 
 
 
     .content_li_thirdrow_pc{width:45%; height:auto;}
-    .content_li_thirdrow_pc:nth-child(even){float:left;}
-    .content_li_thirdrow_pc:nth-child(odd){float:right;}
+    .content_li_thirdrow_pc:nth-child(even){float:left; width:45%; height:auto;}
+    .content_li_thirdrow_pc:nth-child(odd){float:right; width:45%; height:auto;}
 
 }
+
+
+@media screen and (max-width:700px){
